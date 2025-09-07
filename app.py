@@ -206,8 +206,7 @@ with st.sidebar:
     if st.button("🧭 Η Ιστορία της Δημιουργίας & Πηγή Έμπνευσης", use_container_width=True, key="btn_story"):
         st.session_state.show_story = not st.session_state.show_story
     if st.session_state.show_story:
-        with st.expander("🧭 Η Ιστορία της Δημιουργίας & Πηγή Έμπνευσης", expanded=True):
-            st.markdown(_story_md())
+       
 
 
     st.divider()
