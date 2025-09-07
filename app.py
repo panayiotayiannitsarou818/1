@@ -205,7 +205,9 @@ with st.sidebar:
         st.session_state.show_story = False
     if st.button("🧭 Η Ιστορία της Δημιουργίας & Πηγή Έμπνευσης", use_container_width=True, key="btn_story"):
         st.session_state.show_story = not st.session_state.show_story
-    if st.session_state.show_story:
+    if st.session_state["show_story"]:
+    pass
+
        
 
 
